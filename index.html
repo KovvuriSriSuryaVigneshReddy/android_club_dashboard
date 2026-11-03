@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Android Club | Build. Innovate. Deploy.</title>
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="brand">
+          <i data-lucide="bot"></i>
+          <span>Android Club</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Join Club</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Welcome / Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-badge">
+        <i data-lucide="sparkles" size="16"></i>
+        <span>Official Student Developer Community</span>
+      </div>
+      <h1>Architecting the Next Era of <span>Mobile Innovation</span></h1>
+      <p>A community of developers, designers, and tinkerers mastering Kotlin, Jetpack Compose, and cross-platform native engineering.</p>
+      
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <span>Explore Projects</span>
+          <i data-lucide="arrow-right" size="18"></i>
+        </a>
+        <a href="#events" class="btn btn-outline">Upcoming Workshops</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-number">250+</div>
+          <div class="stat-label">Active Members</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">18+</div>
+          <div class="stat-label">Apps Published</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">Hands-on Workshops</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Open Source Ethos</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">What We Do</span>
+        <h2>Empowering Future Mobile Engineers</h2>
+        <p>From writing your first line of Kotlin code to orchestrating complex enterprise apps, we cover the complete modern stack.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="icon-box"><i data-lucide="code-2"></i></div>
+          <h3>Native Kotlin & Compose</h3>
+          <p>We build fluid, declarative user interfaces using Jetpack Compose, emphasizing clean architecture, coroutines, and reactive state management.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="icon-box"><i data-lucide="cpu"></i></div>
+          <h3>On-Device AI & ML</h3>
+          <p>Integrating Google MediaPipe and Gemini Nano for edge machine learning, running real-time neural models directly on the client.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="icon-box"><i data-lucide="users"></i></div>
+          <h3>Hackathons & Mentorship</h3>
+          <p>Collaborative build sprints, mock code reviews, open-source sprints, and peer mentorship to prep members for top engineering roles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Showcase Section -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Built By Members</span>
+        <h2>Featured Projects</h2>
+        <p>Explore production-grade mobile applications engineered right here in the club.</p>
+      </div>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="project-header">📍</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Jetpack Compose</span>
+              <span class="tag">Room DB</span>
+              <span class="tag">Maps SDK</span>
+            </div>
+            <h3>CampusPulse</h3>
+            <p>A real-time crowd-tracking and resource map helping university students find open study spaces, food options, and bus schedules.</p>
+            <a href="https://github.com" target="_blank" class="project-link">
+              <span>View Source on GitHub</span>
+              <i data-lucide="external-link" size="14"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">🎧</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Kotlin</span>
+              <span class="tag">ExoPlayer</span>
+              <span class="tag">Material 3</span>
+            </div>
+            <h3>Waveform Music</h3>
+            <p>An open-source, minimalist local audio player with dynamic Material You theming and low-latency audio processing pipelines.</p>
+            <a href="https://github.com" target="_blank" class="project-link">
+              <span>View Source on GitHub</span>
+              <i data-lucide="external-link" size="14"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">⏱️</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="tag">Coroutines</span>
+              <span class="tag">DataStore</span>
+              <span class="tag">WorkManager</span>
+            </div>
+            <h3>FlowFocus</h3>
+            <p>A gamified habit tracker and focus timer that synchronizes background notifications without impacting device battery life.</p>
+            <a href="https://github.com" target="_blank" class="project-link">
+              <span>View Source on GitHub</span>
+              <i data-lucide="external-link" size="14"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge">Community Schedule</span>
+        <h2>Workshops & Hackathons</h2>
+        <p>Join our practical sessions and sharpen your development toolkit.</p>
+      </div>
+
+      <div class="events-list">
+        <div class="event-card">
+          <div class="event-date-box">
+            <div class="event-month">Nov</div>
+            <div class="event-day">14</div>
+          </div>
+          <div class="event-info">
+            <h3>Mastering Jetpack Compose Animation</h3>
+            <p>
+              <span><i data-lucide="clock" size="14"></i> 5:00 PM – 7:30 PM</span>
+              <span><i data-lucide="map-pin" size="14"></i> CS Lab 3 / Discord Stream</span>
+            </p>
+          </div>
+          <button class="btn btn-outline" data-action="rsvp">Register</button>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date-box">
+            <div class="event-month">Dec</div>
+            <div class="event-day">02</div>
+          </div>
+          <div class="event-info">
+            <h3>Winter HackSprint: App in 24 Hours</h3>
+            <p>
+              <span><i data-lucide="clock" size="14"></i> 9:00 AM Start</span>
+              <span><i data-lucide="map-pin" size="14"></i> Main Auditorium</span>
+            </p>
+          </div>
+          <button class="btn btn-outline" data-action="rsvp">Register</button>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date-box">
+            <div class="event-month">Jan</div>
+            <div class="event-day">18</div>
+          </div>
+          <div class="event-info">
+            <h3>On-Device LLMs with Android & Mediapipe</h3>
+            <p>
+              <span><i data-lucide="clock" size="14"></i> 4:00 PM – 6:00 PM</span>
+              <span><i data-lucide="map-pin" size="14"></i> Seminar Hall B</span>
+            </p>
+          </div>
+          <button class="btn btn-outline" data-action="rsvp">Register</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="badge">Get in Touch</span>
+          <h3>Ready to Build with Us?</h3>
+          <p>Whether you're starting from scratch or looking for collaborators for your next big idea, there's always a desk open for you.</p>
+
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub"><i data-lucide="github"></i></a>
+            <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Discord"><i data-lucide="message-square"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn"><i data-lucide="linkedin"></i></a>
+            <a href="mailto:club@android.org" class="social-icon" title="Email"><i data-lucide="mail"></i></a>
+          </div>
+        </div>
+
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Ada Lovelace" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Student / Personal Email</label>
+            <input type="email" id="email" placeholder="ada@domain.edu" required>
+          </div>
+          <div class="form-group">
+            <label for="experience">Experience Level / Message</label>
+            <textarea id="experience" rows="3" placeholder="Tell us what you're interested in building..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-top: 8px;">Submit Membership Request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Android Club. Built with clean HTML, CSS & modern web standards.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
